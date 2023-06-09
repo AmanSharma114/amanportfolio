@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg5 from "../assets/img/project5.png";
+
 import projectimg4 from "../assets/img/projectimg4.png";
 import projectimg5 from "../assets/img/projectimg5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -16,31 +18,43 @@ export const Projects = () => {
       title: "FITX - GYM WEBSITE",
       description: "Designed a fitness website with gym advertisement, fitness-related knowledge, MySQL database integration for gym membership details, and an e-commerce page for purchasing fitness products.",
       imgUrl: projImg1,
+      projectUrl: "https://fit-max.netlify.app/",
+      githubUrl: "https://github.com/AmanSharma114/fitmax",
     },
     {
       title: "SHOW-BOX-OFFICE",
       description: "Developed a REACT.JS-based app with API integration for fetching TV show and actor data , and a Starred page for users to track their favorite shows.",
       imgUrl: projImg2,
+      projectUrl: "https://showboxoffice.netlify.app/#/",
+      githubUrl: "https://github.com/AmanSharma114/box-office",
     },
     {
       title: "WEBCHAT",
       description: "Created a real-time chat app with sign-up, login, logout, messaging, profile updating, including multiple chatroom functionality.",
       imgUrl: projImg3,
+      projectUrl: "https://github.com/AmanSharma114/WebChat",
+      githubUrl: "https://github.com/AmanSharma114/WebChat",
     },
     {
       title: "Online Code Editor",
       description: "Designed a user-friendly online code editor with React, enabling seamless coding and execution of HTML, CSS, and JavaScript for a dynamic development experience.",
       imgUrl: projectimg4,
+      projectUrl: "https://onlinewebeditor.netlify.app/",
+      githubUrl: "https://github.com/AmanSharma114/WebPen",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "QuickSearch",
+      description: "Design & DevelopmentDeveloped and implemented 'QuickSearch,' a powerful Google-inspired search engine, facilitating rapid information retrieval and enhancing user experience",
+      imgUrl: projImg5,
+      projectUrl: "https://github.com/AmanSharma114/QUICKSEARCH",
+      githubUrl: "https://github.com/AmanSharma114/QUICKSEARCH",
     },
     {
       title: "SORTING VISUALIZER",
       description: "Developed a web application to visualize how various sorting algorithms work",
       imgUrl: projectimg5,
+      projectUrl: "https://github.com/AmanSharma114/",
+      githubUrl: "https://github.com/AmanSharma114/",
     },
   ];
 

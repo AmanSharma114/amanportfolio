@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl, projectUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, projectUrl, githubUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -34,7 +34,7 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl }) => {
               View Project
             </a>
             <a
-              href={projectUrl}
+              href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               style={{
