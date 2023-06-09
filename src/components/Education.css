@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.education-container {
+    margin: 40px 40px;
+  }
+  
+  .education-title {
+    font-size: 50px;
+    font-family: Lora;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px 40px;
+  }
+  
+  .education-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .education-item {
+    background-color: #151515;
+    padding: 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .institution {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid whitesmoke;
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  h3{
+    color:rgb(220, 212, 228);
+  }
+  .education-item h2{
+    color:#5ed889;
+  }
+
+  
+  @media (min-width: 768px) {
+    .education-item {
+      flex-basis: calc(33.33% - 10px);
+    }
+  }
+  
